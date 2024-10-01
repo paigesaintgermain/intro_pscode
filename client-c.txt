@@ -2,3 +2,21 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set full package == 50
+starting point / empty == 0 
+variable is package total
+add +2 to package total until full package is met
+
+loop:
+
+if package total <= 50
+add +2
+if still not met add +2
+until package total == 50
+when package total = 50 break loop
+
+
+if package total == 50
+read "you have reached capacity"
+end program
+

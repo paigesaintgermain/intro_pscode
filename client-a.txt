@@ -2,3 +2,22 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+read text "within three tries, pick a number between 1 and 10"
+allow player to guess a number 
+if player guesses == number
+say "you guessed correctly!"
+
+
+else / if incorrect
+say "incorrect, you have two more tries!"
+
+
+allow for two more guesses
+if guessed incorrect a second time, say "incorrect, you have one more try!"
+
+if not guessed by third time 
+say "better luck next time!"
+if failed, allow player to play again
+
+if succeeded, allow player to play again if they choose 

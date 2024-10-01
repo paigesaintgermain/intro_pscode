@@ -2,3 +2,32 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set item location to a specific point - fixed
+set customer's location to a moving point - variable
+
+begin giving directions to the item location from the customer's location
+
+loop:
+
+read out where customer's location is
+begin with first direction: north, east, south, west
+ask customer to follow directions given
+
+determine next direction for customer
+read out next direction
+
+if correct, read "good job" and go to next direction
+if incorrect, read "not quite" and read the next direction from this point
+		
+if customer location == item location
+read "you found it!"
+and end the program
+
+if customer location does not equal item location
+keep looping 
+and read "please follow directions"
+until customer location == item location
+	
+	
+
+
